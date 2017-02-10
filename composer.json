@@ -1,6 +1,6 @@
 {
     "name": "degov/features",
-    "type": "degov-features
+    "type": "degov-features",
     "version": "0.1",
     "dist": {
         "url": "git@github.com:deGov/features.git",
