@@ -1,9 +1,0 @@
-langcode: de
-status: true
-dependencies: {  }
-id: authenticated
-label: 'Angemeldete Benutzer'
-weight: 1
-is_admin: false
-permissions:
-  - 'display eu cookie compliance popup'
