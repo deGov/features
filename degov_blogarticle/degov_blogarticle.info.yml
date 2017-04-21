@@ -23,5 +23,6 @@ dependencies:
   - taxonomy
   - text
   - user
+  - views
   - workbench_moderation
 description: 'Stellt das Element Blogartikel / Pressemitteilung für deGov zur Verfügung.'

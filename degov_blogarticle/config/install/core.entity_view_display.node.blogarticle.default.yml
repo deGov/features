@@ -37,6 +37,7 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_blogarticle_image:
     weight: 3
     label: hidden
@@ -45,6 +46,7 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_entity_view
+    region: content
   field_blogarticle_subtitle:
     weight: 1
     label: hidden
@@ -52,16 +54,19 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_blogarticle_text:
     weight: 4
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
   shariff_field:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   field_blogarticle_section: true
   field_blogarticle_tags: true

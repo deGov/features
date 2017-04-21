@@ -36,6 +36,7 @@ content:
       view_mode: teaser_image
       link: false
     third_party_settings: {  }
+    region: content
   field_blogarticle_teaser_stitle:
     type: string
     weight: 2
@@ -43,6 +44,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    region: content
   field_blogarticle_teaser_title:
     type: string
     weight: 1
@@ -50,6 +52,7 @@ content:
     settings:
       link_to_entity: true
     third_party_settings: {  }
+    region: content
 hidden:
   field_blogarticle_datetime: true
   field_blogarticle_image: true
