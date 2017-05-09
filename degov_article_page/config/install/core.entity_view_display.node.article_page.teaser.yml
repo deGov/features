@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.article_page.field_article_page_section
     - field.field.node.article_page.field_article_page_subtitle
     - field.field.node.article_page.field_article_page_tags
-    - field.field.node.article_page.field_article_page_teaser_color
     - field.field.node.article_page.field_article_page_teaser_image
     - field.field.node.article_page.field_article_page_teaser_stitle
     - field.field.node.article_page.field_article_page_teaser_title
@@ -35,6 +34,7 @@ content:
       view_mode: teaser_image
       link: false
     third_party_settings: {  }
+    region: content
   field_article_page_teaser_stitle:
     type: string
     weight: 2
@@ -42,6 +42,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    region: content
   field_article_page_teaser_title:
     type: string
     weight: 1
@@ -49,13 +50,13 @@ content:
     settings:
       link_to_entity: true
     third_party_settings: {  }
+    region: content
 hidden:
   field_article_page_contents: true
   field_article_page_datetime: true
   field_article_page_section: true
   field_article_page_subtitle: true
   field_article_page_tags: true
-  field_article_page_teaser_color: true
   langcode: true
   links: true
   shariff_field: true
