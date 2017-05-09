@@ -2,5 +2,5 @@ langcode: de
 status: true
 dependencies: {  }
 id: views_reference_element
-label: 'Views reference'
+label: 'Ansichten referenz'
 behavior_plugins: {  }
