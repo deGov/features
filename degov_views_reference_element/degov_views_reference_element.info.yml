@@ -1,0 +1,10 @@
+name: 'deGov - Paragraphs - Ansichten Referenz'
+description: 'Provides Views reference paragraphs type and related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - paragraphs
+  - views
+  - viewsreference
+  - workbench_moderation
