@@ -1,0 +1,30 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_reference_element.field_content_ref_element_ref
+    - field.field.paragraph.content_reference_element.field_content_ref_element_title
+    - paragraphs.paragraphs_type.content_reference_element
+id: paragraph.content_reference_element.default
+targetEntityType: paragraph
+bundle: content_reference_element
+mode: default
+content:
+  field_content_ref_element_ref:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_content_ref_element_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

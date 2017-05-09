@@ -1,0 +1,35 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_reference_element.field_content_ref_element_ref
+    - field.field.paragraph.content_reference_element.field_content_ref_element_title
+    - paragraphs.paragraphs_type.content_reference_element
+  module:
+    - workbench_moderation
+id: paragraph.content_reference_element.default
+targetEntityType: paragraph
+bundle: content_reference_element
+mode: default
+content:
+  field_content_ref_element_ref:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_content_ref_element_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,9 @@
+name: 'deGov - Paragraphs - Inhalt referenz'
+description: 'Provides content reference paragraphs type and related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - paragraphs
+  - workbench_moderation
