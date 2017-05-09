@@ -1,0 +1,11 @@
+langcode: de
+status: true
+dependencies: {  }
+id: snippet
+label: Snippet
+description: 'Hier können wiederverwendbare Snippets erstellt werden'
+type: generic
+queue_thumbnail_downloads: false
+new_revision: true
+type_configuration: {  }
+field_map: {  }

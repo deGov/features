@@ -1,0 +1,21 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.snippet_element.field_snippet_element_snippet
+    - paragraphs.paragraphs_type.snippet_element
+id: paragraph.snippet_element.default
+targetEntityType: paragraph
+bundle: snippet_element
+mode: default
+content:
+  field_snippet_element_snippet:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

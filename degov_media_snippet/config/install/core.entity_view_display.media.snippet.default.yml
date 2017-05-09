@@ -1,0 +1,28 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.media.snippet.field_media_in_library
+    - field.field.media.snippet.field_snippet
+    - media_entity.bundle.snippet
+  module:
+    - text
+id: media.snippet.default
+targetEntityType: media
+bundle: snippet
+mode: default
+content:
+  field_snippet:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

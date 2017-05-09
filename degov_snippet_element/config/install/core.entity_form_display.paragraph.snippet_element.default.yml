@@ -1,0 +1,26 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.snippet_element.field_snippet_element_snippet
+    - paragraphs.paragraphs_type.snippet_element
+  module:
+    - workbench_moderation
+id: paragraph.snippet_element.default
+targetEntityType: paragraph
+bundle: snippet_element
+mode: default
+content:
+  field_snippet_element_snippet:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

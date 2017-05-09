@@ -1,0 +1,10 @@
+name: 'deGov - Paragraphs - Snippet'
+description: 'Provides Snippet paragraphs type and related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - degov_media_snippet
+  - field
+  - media_entity
+  - paragraphs
+  - workbench_moderation

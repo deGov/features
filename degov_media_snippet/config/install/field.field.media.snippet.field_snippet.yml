@@ -1,0 +1,20 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_snippet
+    - media_entity.bundle.snippet
+  module:
+    - text
+id: media.snippet.field_snippet
+field_name: field_snippet
+entity_type: media
+bundle: snippet
+label: Snippet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
