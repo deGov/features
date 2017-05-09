@@ -1,0 +1,8 @@
+name: 'Degov Media Snippet'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - media_entity
+  - text
+  - workbench_moderation

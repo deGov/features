@@ -1,0 +1,28 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_snippet_element_snippet
+    - media_entity.bundle.snippet
+    - paragraphs.paragraphs_type.snippet_element
+id: paragraph.snippet_element.field_snippet_element_snippet
+field_name: field_snippet_element_snippet
+entity_type: paragraph
+bundle: snippet_element
+label: Snippet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      snippet: snippet
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

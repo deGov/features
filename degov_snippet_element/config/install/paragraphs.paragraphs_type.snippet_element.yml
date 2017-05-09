@@ -1,0 +1,6 @@
+langcode: de
+status: true
+dependencies: {  }
+id: snippet_element
+label: Snippet
+behavior_plugins: {  }
