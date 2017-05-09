@@ -6,9 +6,9 @@ dependencies:
   module:
     - views
   theme:
-    - degov_theme
+    - degov_demo_theme
 id: views_block__blog_articles_all_blog_articles
-theme: degov_theme
+theme: degov_demo_theme
 region: sidebar_second
 weight: -6
 provider: null
