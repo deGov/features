@@ -2,6 +2,8 @@ name: 'deGov - Blogartikel'
 type: module
 core: 8.x
 dependencies:
+  - block
+  - ctools
   - datetime
   - degov_image_element
   - degov_image_text_element

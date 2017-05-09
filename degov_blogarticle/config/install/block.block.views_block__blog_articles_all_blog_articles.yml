@@ -1,0 +1,24 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - views.view.blog_articles
+  module:
+    - views
+  theme:
+    - degov_theme
+id: views_block__blog_articles_all_blog_articles
+theme: degov_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:blog_articles-all_blog_articles'
+settings:
+  id: 'views_block:blog_articles-all_blog_articles'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

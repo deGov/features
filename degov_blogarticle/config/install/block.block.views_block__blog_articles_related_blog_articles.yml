@@ -1,0 +1,32 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - views.view.blog_articles
+  module:
+    - ctools
+    - views
+  theme:
+    - degov_theme
+id: views_block__blog_articles_related_blog_articles
+theme: degov_theme
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:blog_articles-related_blog_articles'
+settings:
+  id: 'views_block:blog_articles-related_blog_articles'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blogarticle: blogarticle
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
