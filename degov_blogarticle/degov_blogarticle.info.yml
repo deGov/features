@@ -1,4 +1,4 @@
-name: 'deGov - Blogartikel / Pressemitteilung'
+name: 'deGov - Blogartikel'
 type: module
 core: 8.x
 dependencies:
@@ -25,4 +25,4 @@ dependencies:
   - user
   - views
   - workbench_moderation
-description: 'Stellt das Element Blogartikel / Pressemitteilung für deGov zur Verfügung.'
+description: 'Stellt das Element Blogartikel für deGov zur Verfügung.'

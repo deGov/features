@@ -6,9 +6,7 @@ dependencies:
     - node.type.blogarticle
     - taxonomy.vocabulary.tax_blog
   module:
-    - datetime
     - node
-    - taxonomy
     - user
 id: neueste_blogeintraege
 label: 'Neueste Blogeinträge'

@@ -7,9 +7,9 @@ dependencies:
     - field.field.node.blogarticle.field_blogarticle_section
     - field.field.node.blogarticle.field_blogarticle_subtitle
     - field.field.node.blogarticle.field_blogarticle_tags
-    - field.field.node.blogarticle.field_blogarticle_teaser_color
     - field.field.node.blogarticle.field_blogarticle_teaser_image
     - field.field.node.blogarticle.field_blogarticle_teaser_stitle
+    - field.field.node.blogarticle.field_blogarticle_teaser_text
     - field.field.node.blogarticle.field_blogarticle_teaser_title
     - field.field.node.blogarticle.field_blogarticle_text
     - node.type.blogarticle
@@ -30,7 +30,7 @@ bundle: blogarticle
 mode: default
 content:
   field_blogarticle_datetime:
-    weight: 2
+    weight: 1
     label: hidden
     settings:
       format_type: medium
@@ -48,12 +48,19 @@ content:
     type: entity_reference_entity_view
     region: content
   field_blogarticle_subtitle:
-    weight: 1
+    weight: 0
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_blogarticle_teaser_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_blogarticle_text:
     weight: 4
@@ -70,7 +77,6 @@ content:
 hidden:
   field_blogarticle_section: true
   field_blogarticle_tags: true
-  field_blogarticle_teaser_color: true
   field_blogarticle_teaser_image: true
   field_blogarticle_teaser_stitle: true
   field_blogarticle_teaser_title: true
