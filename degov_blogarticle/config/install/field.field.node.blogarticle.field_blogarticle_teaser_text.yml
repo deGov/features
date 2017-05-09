@@ -2,19 +2,19 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_blogarticle_teaser_color
+    - field.storage.node.field_blogarticle_teaser_text
     - node.type.blogarticle
   module:
-    - options
-id: node.blogarticle.field_blogarticle_teaser_color
-field_name: field_blogarticle_teaser_color
+    - text
+id: node.blogarticle.field_blogarticle_teaser_text
+field_name: field_blogarticle_teaser_text
 entity_type: node
 bundle: blogarticle
-label: 'Teaser: Farbe'
+label: 'Teaser: Text'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: text_long

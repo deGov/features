@@ -16,10 +16,10 @@ third_party_settings:
       - draft
       - needs_review
     default_moderation_state: draft
-name: 'Blogartikel / Pressemitteilung'
+name: Blogartikel
 type: blogarticle
 description: ''
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false
