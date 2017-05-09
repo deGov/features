@@ -1,0 +1,33 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.views_reference_element.field_views_ref_element_ref
+    - field.field.paragraph.views_reference_element.field_views_ref_element_title
+    - paragraphs.paragraphs_type.views_reference_element
+  module:
+    - viewsreference
+    - workbench_moderation
+id: paragraph.views_reference_element.default
+targetEntityType: paragraph
+bundle: views_reference_element
+mode: default
+content:
+  field_views_ref_element_ref:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: viewsreference_select
+    region: content
+  field_views_ref_element_title:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
