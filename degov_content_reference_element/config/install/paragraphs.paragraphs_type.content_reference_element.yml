@@ -1,0 +1,6 @@
+langcode: de
+status: true
+dependencies: {  }
+id: content_reference_element
+label: 'Inhalt referenz'
+behavior_plugins: {  }
