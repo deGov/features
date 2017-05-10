@@ -3,6 +3,8 @@ type: module
 core: 8.x
 dependencies:
   - field
+  - language
   - media_entity
   - text
   - workbench_moderation
+description: 'Stellt den Medientyp Snippet zur Verfügung'
