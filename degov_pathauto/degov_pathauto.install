@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Updates default pattern to be compatible with easy_breadcrumb
+ */
+function degov_pathauto_update_8004() {
+  \Drupal::service('degov_config.updater')->configPartialImport('degov_pathauto', 'rewrite');
+}
+
