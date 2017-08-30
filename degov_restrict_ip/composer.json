@@ -6,5 +6,12 @@
   "homepage": "https://www.nrwgov.org",
   "require": {
     "drupal/restrict_ip": "^1.0"
+  },
+  "extra": {
+    "patches": {
+      "drupal/restrict_ip": {
+        "2905569 - Avoid redirect loop for authenticated users": "https://www.drupal.org/files/issues/2905569_check_user_authentication.patch"
+      }
+    }
   }
 }
