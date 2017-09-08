@@ -1,7 +1,0 @@
-name: 'deGov - EU cookie compliance'
-type: module
-core: 8.x
-dependencies:
-  - user
-  - eu_cookie_compliance
-description: 'Zeigt einen Hinweis beim erstmaligen Besuch der Webseite an, um den User über die Verwendung von Browser-Cookies zu informieren.'
